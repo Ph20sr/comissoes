@@ -1,0 +1,12 @@
+{
+  "name": "comissoes",
+  "version": "1.0.0",
+  "description": "Cálculo de comissões de vendas para CRMs: faixas progressivas ou cheias, comissão sobre o recebido, estornos, divisão com SDR, taxa por produto, bônus por meta e extrato em CSV. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["comissao", "commission", "vendas", "crm", "metas", "sdr", "remuneracao-variavel"],
+  "license": "MIT"
+}
